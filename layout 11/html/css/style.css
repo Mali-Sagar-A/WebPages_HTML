@@ -1,0 +1,472 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    font-family: 'Montserrat', sans-serif;
+    
+}
+body{
+    background: #e0e0e0;
+}
+.container{
+    width: 1490px;
+}
+.container > div{
+    border: #e0e0e0 1px solid;
+}
+.box1{
+    background-image: url(../images/hicking-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    overflow: hidden;
+}
+.header div{
+
+    float: left;
+}
+.header div:first-child{
+    margin: 35px 99px 0 55px;
+
+}
+.header div:last-child{
+    margin: 70px 0 0;
+}
+.header li{
+    display: inline;
+    margin: 0 40px 0 0;
+}
+.header li a{
+    text-decoration: none;
+    color: #2f4959;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+.box1 > div:last-child{
+    width: 326px;
+    
+    margin: 148px 128px;
+}
+.box1 h1{
+    color: #ff705b;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 103px;
+    text-transform: uppercase;
+    font-style: italic;
+    line-height: 85px;
+    font-weight: 400;
+
+}
+.box1 p{
+    margin: 41px 0;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 25px;
+    color: #2f4959;
+    line-height: 29px;
+    text-transform: uppercase;
+}
+.box1 button{
+    font-weight: 900;
+    font-size: 26px;
+    background-color: #ff705b;
+    color: white;
+    padding: 18px 32px;
+    border-radius: 10px;
+    border: none;
+}
+.box2{
+    text-align: center;
+    overflow: hidden;
+}
+.box2 > div:first-child{
+    margin: 100px 0;
+}
+.box2 > div:first-child h1{
+    font-family: 'League Gothic', sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-style: italic;
+    color: #2f4959;
+    
+}
+.box2 > div:first-child p{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 19px;
+    color: #2f4959;
+    text-transform: uppercase;
+}
+.box2 > div:last-child{
+   
+    margin: 0 0 50px;
+    overflow: hidden;
+}
+.box2 > div:last-child > div{
+    float: left;
+    width: 254px;
+    
+    margin: 0 112px;
+}
+.box2 > div:last-child h1{
+    font-weight: 900;
+    font-style: italic;
+    color: #ff705b;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 73px 0 0;
+}
+.box2 > div:last-child p{
+    color: #2f4959;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 34px 0 0;
+}
+.box3{
+    overflow: hidden;
+    background-image: url(../images/boys-bg.png);
+    background-repeat: no-repeat;
+    
+}
+.box3 > div:first-child{
+    text-align: center;
+    margin: 174px 0 0;
+}
+.box3 > div:first-child h1{
+    font-family: 'League Gothic', sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-style: italic;
+    color: #ff705b;
+}
+.box3 > div:first-child h3{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 19px;
+    color: #2f4959;
+    text-transform: uppercase;
+    margin: 0 0 120px;
+}
+.box3 > div:last-child{
+    float: right;
+    margin: 0 100px 0;
+}
+
+.box3 > div:last-child div div{
+    width: 246px;  
+    
+}
+
+.box3 > div:last-child h1{
+    font-weight: 900;
+    font-style: italic;
+    color: #ff705b;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0 0 33px;
+}
+.box3 > div:last-child p{
+    color: #2f4959;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+.box3 > div:last-child button{
+    font-weight: 900;
+    font-size: 13px;
+    background-color: #ff705b;
+    color: white;
+    padding: 16px 32px;
+    border-radius: 5px;
+    border: none;
+    
+}
+.box3 > div:last-child  div{
+    
+    overflow: hidden;
+}
+.box3 > div:last-child  div > div:nth-child(2){
+    padding: 64px 0 0 19px;
+    float: right;
+   
+}
+.mid-hikking div{
+    float: right;
+    margin: 0 0 100px;
+}
+.mid-hikking div:last-child{
+    margin: 0 20px 0;
+}
+.hikking div{
+    float: left;
+    margin: 0 0 100px;
+}
+.box4{
+    text-align: center;
+    background-image: url(../images/orange-up.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box4 div{
+    width: 713px;
+    margin: 285px auto;
+    
+}
+.box4 h1{
+    font-family: 'League Gothic', sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-style: italic;
+    color: white;
+}
+.box4 p{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 19px;
+    color: #2f4959;
+    text-transform: uppercase;
+    padding: 45px 0 40px;
+}
+.box4 h5{
+    color: white;
+    font-weight: 400;
+}
+.box5{
+    text-align: center;
+}
+.box5 > div:first-child{
+    margin: 115px 0 0;
+}
+.box5 > div:first-child h1{
+    font-family: 'League Gothic', sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-style: italic;
+    color: #ff705b;
+}
+.box5 > div:first-child h3{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 19px;
+    color: #2f4959;
+    text-transform: uppercase;
+    margin: 0 0 120px;
+}
+.box5 > div:last-child{
+   
+    
+    overflow: hidden;
+    margin: 0 0 35px;
+}
+.box5 > div:last-child > div{
+    float: left;
+    width: 317px;
+    
+    margin: 0 81px;
+}
+.box5 > div:last-child h1{
+    font-weight: 600;
+   
+    color: #ff705b;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 42px 0 0;
+}
+.box5 > div:last-child h1 span{
+    font-weight: 900;
+}
+.box5 > div:last-child p{
+    color: #2f4959;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 20px 0 0;
+}
+.box6{
+    background-image: url(../images/john-brown.png);
+    
+}
+.box6 div{
+    width: 502px;
+    margin: 160px 170px;
+}
+.box6 h1{
+    font-family: 'League Gothic', sans-serif;
+    font-weight: 400;
+    font-size: 71px;
+    text-transform: uppercase;
+    font-style: italic;
+    color: #ff705b;
+    line-height: 60px;
+}
+.box6 h3{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 23px;
+    color: #2f4959;
+    text-transform: uppercase;
+    margin: 20px 0 15px;
+}
+.box6 button{
+    font-weight: 900;
+    font-size: 18px;
+    background-color: #ff705b;
+    color: white;
+    padding: 16px 32px;
+    border-radius: 10px;
+    border: none;
+    margin: 48px 0 142px 128px;
+}
+.box7{
+    text-align: center;
+    width: 1022px;
+    margin: 0 auto;
+}
+.box7 h1{
+    font-family: 'League Gothic', sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-style: italic;
+    color: #ff705b;
+    margin: 18px 0 0;
+}
+.box7 h3{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 19px;
+    color: #2f4959;
+    text-transform: uppercase;
+    margin: 0 0 33px;
+}
+
+.box7 div:last-child{
+    border: solid 3px #ff705b;
+    border-radius: 5px;
+    padding: 83px 0;
+}
+
+.box7 div:last-child button{
+    font-weight: 900;
+    font-size: 18px;
+    background-color: #ff705b;
+    color: white;
+    padding: 12px 47px;
+    border-radius: 5px;
+    border: none;
+}
+.box7 div:last-child input{
+    width: 523px;
+    padding: 12px 16px;
+    border-radius: 20px;
+    border: none;
+    margin: 0 0 12px;
+} 
+.box8{
+    overflow: hidden;
+    background-image: url(../images/orange-bottom.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}  
+.box8 div{
+    overflow: hidden;
+    margin: 284px 0;
+}
+.box8 div div{
+    float: left;
+    margin: 30px 0;
+    
+}
+.box8 .quote{
+    width: 417px;
+    margin: 0 0 0 83px;
+}
+.box8 .quote h1{
+    font-family: 'League Gothic', sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-style: italic;
+    color: white;
+    line-height: 49px; 
+}
+.box8 .quote p{
+    color: white;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 27px;
+    margin: 20px 0 0;
+}
+.box8 .explore{
+    width: 190px;
+    margin: 0 142px 0 117px;
+}
+.box8 .explore h2{
+    font-family: 'League Gothic', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-style: italic;
+    color: white; 
+    margin: 0 0 35px;
+}
+.box8 .explore li{
+    list-style: none;
+    margin: 0 0 10px;
+}
+.box8 .explore a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.box8 .contact{
+    width: 381px;
+    margin: 0 108px 0 0;
+}
+.box8 .contact h2{
+    font-family: 'League Gothic', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-style: italic;
+    color: white; 
+}
+.box8 .contact p{
+    color: white;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    margin: 20px 0 34px;
+}
+.box8 .contact i{	
+	border-radius: 50%;	
+	color: #ff705b;
+	margin: 0 2px 6px;
+}
+.box8 .contact .fa-instagram{
+    background-color: #ffffff;
+    padding: 8px 10px;
+}
+.box8 .contact .fa-facebook-f{
+    background-color: #ffffff;
+    padding: 7px 10px;
+}
+.box8 .contact .fa-twitter{
+    background-color: #ffffff;
+    padding: 7px;
+}
+.box8 .contact .fa-whatsapp{
+    background-color: #ffffff;
+    padding: 7px 10px;
+}
+
+

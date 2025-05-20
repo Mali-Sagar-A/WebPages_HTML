@@ -1,0 +1,29 @@
+h1{
+	color:orange;
+	font-size:50px;
+	text-align:center;
+	text-transform:capitalize:
+}
+
+p{
+	font-size:20px;
+	background:black;
+	color:white;
+	padding-right:20px;
+	padding-bottom:20px;
+	padding-left:20px;
+	padding-top:20px;
+	line-height:30px;
+}
+
+
+a{
+	text-decoration:none;
+}
+.abc{
+	text-align:left;
+	text-decoration:underline;
+}
+.test{
+	text-transform:uppercase;
+}

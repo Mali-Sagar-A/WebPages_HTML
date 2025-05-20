@@ -1,0 +1,35 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Montserrat', sans-serif;
+	box-sizing:border-box;
+}
+.container{
+	width:815px;
+	margin:0 auto;
+	padding:97px 0 0;
+}
+.container div{
+	width:222px;
+	float:left;
+}
+.ceo-detail h1{
+	padding:10px 0 4px;
+	color:#2e4ad6;
+	font-size:21px;
+	font-weight:400;
+}
+.ceo-detail h2{
+	padding:0 0 20px;
+	color:#5f5f5f;
+	font-size:14px;
+	font-weight:400;
+}
+.ceo-detail p{
+	font-size:14px;
+	font-weight:300;
+	line-height:18px
+}
+.container div:nth-child(2){
+	margin:0 70px;
+}

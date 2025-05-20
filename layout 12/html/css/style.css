@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+body {}
+
+.container {
+    width: 980px;
+
+    margin: 0 auto;
+}
+
+.header {
+    overflow: hidden;
+    margin: 64px 0 58px;
+}
+
+.header div {
+    float: left;
+}
+
+.header li {
+    display: inline-block;
+    margin: 0 0 0 112px;
+}
+
+.header a {
+    font-size: 14px;
+    color: #626262;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header div:last-child {
+    float: right;
+}
+
+.photography {
+    overflow: hidden;
+    margin: 91px 0 58px;
+}
+
+.photography div {
+    float: left;
+    overflow: hidden;
+
+}
+
+.photography div:first-child {
+    width: 658px;
+    margin: 0 43px 0 0;
+
+}
+
+.photography div:last-child {
+    width: 277px;
+
+}
+
+.photography h2 {
+    font-size: 14px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.photography div:first-child h1 {
+    font-size: 30px;
+    color: #626262;
+    font-weight: 400;
+    margin: 22px 0;
+}
+
+.photography div:first-child p {
+    font-size: 14px;
+    color: #626262;
+    font-weight: 400;
+}
+
+.photography div:last-child h1 {
+    font-size: 24px;
+    color: #626262;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.photography div:last-child p {
+    font-size: 12px;
+    color: #626262;
+    font-weight: 400;
+    margin: 0 0 15px;
+}
+
+.photography div:last-child i {
+    margin: 0 10px 0 0;
+    color: #b4ad9e;
+}
+
+.top-posts {
+    overflow: hidden;
+}
+
+.top-posts img {
+    margin: 0 0 50px;
+
+}
+
+.top-posts div:first-child p:first-child {
+
+    padding: 0 35px 28px;
+}
+
+.top-posts div {
+    float: left;
+    overflow: hidden;
+
+}
+
+.top-posts>div div:last-child {
+    float: right;
+    margin: 65px 0 0;
+}
+
+.top-posts>div div:last-child i {
+    margin: 0 10px 0 0;
+    color: #b4ad9e;
+}
+
+.top-posts>div div:last-child a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    color: #b4ad9e;
+    margin: 0 15px 0 0;
+
+
+}
+
+.top-posts div:first-child {
+    width: 658px;
+    margin: 0 43px 0 0;
+
+}
+
+.top-posts>div:last-child {
+    width: 255px;
+
+}
+
+.top-posts div:first-child p {
+    font-size: 14px;
+    color: #626262;
+    font-weight: 400;
+}
+
+.top-posts div:last-child h2 {
+    font-size: 14px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0 0 24px;
+}
+
+.top-posts div:last-child h1 {
+    font-size: 16px;
+    color: #626262;
+    font-weight: 400;
+    margin: 0 0 10px;
+}
+
+.top-posts>div:last-child img {
+    margin: 50px 0 0;
+}
+
+.like {
+    background-color: #f5f5f5;
+    margin: 100px 0 50px;
+    overflow: hidden;
+}
+
+.content {
+    overflow: hidden;
+    margin: 60px 0 80px;
+}
+
+.content div {
+    float: left;
+    overflow: hidden;
+    margin: 30px 0 0;
+}
+
+.content div:nth-child(3) {
+    margin: 30px 78px 0;
+}
+
+.content>h2 {
+    font-size: 14px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.content h1 {
+    font-size: 20px;
+    color: #626262;
+    font-weight: 400;
+    margin: 10px 0 0;
+}
+
+.comment {
+    overflow: hidden;
+}
+
+.comment:first-child div {
+    margin: 0;
+}
+
+.comment div {
+    float: left;
+    overflow: hidden;
+    margin: 30px 0 0;
+}
+
+.comment div:last-child {
+    width: 871px;
+    padding: 0 0 0 27px;
+}
+
+.comment h2 {
+    font-size: 14px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0 0 25px;
+}
+
+.comment h1 {
+    font-size: 14px;
+    color: #626262;
+    font-weight: 400;
+    margin: 0 0 5px;
+}
+
+.comment p {
+    font-size: 14px;
+    color: #626262;
+    font-weight: 400;
+    margin: 0 0 20px;
+}
+
+.comment a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.comment input {
+    width: 844px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #c8c8c8;
+    margin: 6px 0 0;
+}
+
+.bottom {
+    background-color: #f0f0f0;
+    margin: 50px 0 0;
+    padding: 35px 0;
+    overflow: hidden;
+}
+
+.bottom li {
+    display: inline-block;
+
+}
+
+.bottom a {
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    margin: 0 10px 0 0;
+    text-decoration: none;
+}
+
+.bottom .bottom-content {
+    overflow: hidden;
+}
+
+.bottom .bottom-content div {
+    float: left;
+
+}
+
+.bottom .bottom-content div:last-child {
+    float: right;
+}
+
+.bottom .bottom-content div:last-child i {
+    margin: 0 10px 0 0;
+    color: #626262;
+}
